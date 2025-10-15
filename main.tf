@@ -453,7 +453,7 @@ resource "google_compute_instance" "private_vm" {
   }
 
   metadata = {
-    ssh-keys               = "admin:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCVGOp6vjeMmsqhXos2mWokGUCv4GWJhlaQpQ9R+tnRH59A+Dw0BInK/WJfS4R0T1n8ZT8tOT4OJ+kC1Khp+vO+Vl+6xKRMXmw6a2Eigjcp7MIqc1WYSQjwsRsyWz5t7xxCQsK9r7Kss4h+zBKb9bh632uo+nqKJoOUrWwGX2Gn+itfl948FjFvpaht1Nk21uEDSDQwzgmXSDWUtkq6iCkYm5IGkx6NIWphhg0AfQcoCInDBzk51LaryWw055IRtZMiFi7xAbLrDP7NIDjENlqx6swiF0j0NMK6PvesBCCsyFBDUtiVoNKceGjG9ZZhnllWIVtdYK9MXQBt4LomwfqmSNH2RiDOf+GyLVmg7u8RUPmgHrpJycfaZg1afHAlzgaXnXW3w5u5FEBeFD+Bf8fLBeTYaSOT4XjFf8VzofPGizgPTComR5CXHagmyE/xxp5N9NH72cIEXM5PEWmOHBkhfaJjo1FNCKYUfL0iCJ+Lys7faBTE3eyxJb20Z2QqNdKgFiqzd0XXHkRQKn4sEVdMIQmdyKgrC33cAixt5yS1IiEnvz9YjtbERm23w0rm7oiNbRdfgYNNsivQRbY6xvC8a3bV7UxrX3c8EK+ESAJ3T2m6zRtmwdwSYrbA5O9s1YC+KVD5lmKbF2XuLSNEoUCY9erLFrwLP1sNFC3scVwjyw=="
+    ssh-keys               = "<Replace with your own SSH Key>"
     metadata_startup_script = <<-EOF
       #!/usr/bin/env bash
       set -euxo pipefail
